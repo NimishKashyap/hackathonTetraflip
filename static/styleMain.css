@@ -1,0 +1,19 @@
+.bg-light{
+    background-color: #df7777 !important;
+}
+
+.footer-class{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #df7777;;
+    color: white;
+}
+
+.detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

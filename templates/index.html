@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackathon Tetraflip</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="style.css") }}">
+  </head>
+
+  <body>
+    <div class="page">
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li class="left-ele">We Care!</li>
+        </ul>
+        <ul class="side-navbar">
+          <a href="/signIn" style="text-decoration: none" class="right-ele">Login</a>
+          <a href="/signUp" style="text-decoration: none" class="right-ele"
+            >Sign up</a
+          >
+        </ul>
+      </nav>
+    </div>
+    <section class="img-section">
+      <img src="{{ url_for("static", filename= "img1.jpeg")}}" alt="img">
+    </section>
+    <footer class="footer-class">
+      <p>&#169; Designed and Developed by Response 200 Team</p>
+    </footer>
+  </body>
+</html>
